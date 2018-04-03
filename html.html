@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一次上传</title>
+</head>
+<body>
+    <H1>标题</H1>
+<<<<<<< HEAD
+    <p>這是一個開始</p>
+
+=======
+    <div id="box">
+        <input type="button" value="button_1"/>
+        <input type="button" value="button_2"/>
+        <input type="button" value="button_3"/>
+        <input type="button" value="button_4"/>
+        <input type="button" value="button_5"/>
+    </div>
+>>>>>>> dongxin
+</body>
+</html>
+<script>
+    var box=document.getElementById("box");
+    var inputs=box.getElementsByTagName('input');
+    var l=inputs.length;
+    for(let i=0;i<l;i++){
+        inputs[i].onclick=function () {
+            alert(i)
+        }
+    }
+
+    // function fun(a,b,c) {
+    //     var l=arguments.length;
+    //     var sum=0;
+    //     for(let i=0;i<l;i++){
+    //         sum+=arguments[i]
+    //     };
+    //     console.log(sum);
+    // }
+    // fun(1,2,3,4)
+
+
+
+    // function fun() {
+    //     this.a=0;
+    //     this.b=function () {
+    //         console.log(this.a);
+    //     }
+    // }
+    // fun.prototype={
+    //     b:function () {
+    //         this.a=20;
+    //         console.log(this.a);
+    //     },
+    //     c:function () {
+    //         this.a=30;
+    //         console.log(this.a);
+    //     }
+    // }
+    // var my_fun=new fun();
+    // my_fun.b();
+    // my_fun.c();
+
+    var n=0;
+    function a() {
+        var n=10;
+        function b() {
+           n++;
+           alert(n)
+        };
+        b();
+        return b;
+    }
+    var c=a();
+    c();
+    alert(n)
+</script>
