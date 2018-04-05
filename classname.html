@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>name</title>
+</head>
+<style>
+    html,body,div{
+        margin: 0;
+        padding: 0;
+    }
+    #box{
+        background-color: limegreen;
+        margin: 0 auto;
+        padding: 0;
+        color:#fff;
+    }
+</style>
+<body>
+    <div id="box">
+        <h1>这是董新的一个测试</h1>
+        <p>各种文字</p>
+    </div>
+</body>
+</html>
+<script>
+    let box=document.getElementById('box');
+    let h=document.documentElement.clientWidth;
+    let H=document.documentElement.clientHeight;
+    console.log(H);
+    box.style.width=h>640?'640px':`${h}+px`;
+   box.style.height=H+'px';
+</script>
