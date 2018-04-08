@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>本地存储</title>
+</head>
+<body>
+<div id="box">
+    <p id="text"></p>
+</div>
+<p id="pa"></p>
+</body>
+</html>
+<script>
+    //把一些信息存储在当前浏览器 指定域下的某一个地方（存储到本地硬盘）
+    /*
+    * 1、不能夸浏览器传输
+    * 2、不能跨域传输
+    * 3、本地存储并不安全，容易导致信息泄露；
+    *
+    * */
+
+    /*
+    * localStorage 本地存储 永久存储手动清除后消失
+    * sessionStorage 本地存储  浏览器关闭后消失
+    *
+    * setItem 存储
+    * getItem 读取
+    * removeItem 删除指定属性名的信息
+    * clear  本地全部删除
+    * key（[index]）  通过索引
+    * */
+    let box = document.getElementById('box');
+    let text = document.getElementById('text');
+    localStorage.setItem(['a'], ['abc']);
+    localStorage.setItem(['b'], ['123']);
+    text.innerHTML = localStorage.key([1]);//获取属性名信息
+    box.innerHTML += localStorage.getItem('a');
+
+
+    /*
+    * cookie
+    * */
+
+    let cookie = (function () {
+        let setValue = (name, value, expires = (new Date(new Date().getTime() + (1000 * 60 * 60 * 24))), path = '/', domain = '') => {
+            document.cookie = `${name}=${escape(value)};expires=${expires.toGMTString()};path=${path};domain=${domain}`;
+        };
+        let getValue = name => {
+            let cookieInfo = document.cookie, reg = new RegExp(`(?:^| )${name}=([^;]*)(?:;|$)`),
+                ary = cookieInfo.match(reg);
+            return ary ? unescape(ary[1]) : null;
+        };
+        let removeValue = (name, path = '/', domain = '') => {
+            let value = getValue(name);
+            if (value) {
+                document.cookie = `${name}= ;path=${path};domain=${domain};expires=Fri,02-Jan-1970 00:00:00 GMT`;
+            }
+        };
+        return {set: setValue, get: getValue, remove: removeValue}
+    })();
+
+    cookie.set("a","b")
+    let pa=document.getElementById("pa");
+    pa.innerHTML=cookie.get("a")
+
+    /*
+    * 1、兼容问题
+    * cookie兼容所有浏览器  localStorage 低版本浏览器不兼容
+    * 2、时效性
+    * cookie 有实效性   自己定   localStorage 手动清楚
+    * 3、储存大小
+    * cookie 一个域下4kb左右   localStorage   4Mb左右
+    * 4、处理机制
+    * cookie不是完全的本地存储，在客户端和服务器来回传输    localStorage 完全本地存储
+    * 5、安全性
+    * cookie   localStorage都在本地可以看到  不建议存储重要信息   重要信息要做好加密
+    * */
+
+</script>
