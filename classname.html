@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>name</title>
 </head>
 <style>
@@ -10,16 +11,18 @@
         padding: 0;
     }
     #box{
-        background-color: limegreen;
+        background-color: #b6cdac;
         margin: 0 auto;
         padding: 0;
         color:#fff;
     }
     #box h1{
-        margin: 0;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2rem;
     }
     #box p{
-        margin: 0;
+        margin: 0 auto;
     }
 </style>
 <body>
@@ -33,7 +36,9 @@
     let box=document.getElementById('box');
     let h=document.documentElement.clientWidth;
     let H=document.documentElement.clientHeight;
-    console.log(H);
-    box.style.width=h>640?'640px':`${h}+px`;
+    console.log(h);
+    document.body.style.html=(100*h/640)+'px'
+    console.log(document.body.style.html);
+    box.style.width=`${h}+px`;
    box.style.height=H+'px';
 </script>
