@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="text">a</p>
+</body>
+</html>
+<script>
+    let age=[1,2,3,4,5];
+    let sum=age.reduce((item,it,index,all)=>{
+        console.log(item,it);
+        return item+it})
+    let text=document.getElementById('text').innerHTML+=sum
+</script>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQ复习</title>
+</head>
+<style>
+
+</style>
+<body>
+    <div id="box">
+        <ul class="list">
+            <li class="item">1</li>
+            <li type="item">2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+
+    //选择器
+    $("div");//元素选择器
+    $("#box");//id选择器
+    $(".list");//calss 选择区
+    $("*")//选取所有
+    $("ul.list");//选择class为list的ul元素
+    $("li:first");//选取第一个里元素
+    $("ul li:first");//选取第一个ul元素的第一个里元素
+    $(".list li");//后代选择器
+    $("#box,.list");//群组选择器
+    $("li:eq(1)");//索引大于1
+    $("li:lt(1)");//索引小于1
+    $("li:not()");//不包含什么
+    $("li:not(:gt(5))");//获取所有里但是不包含索引大于5的，也就是前6个
+    //把原生对象转成JQ对象
+    let box=document.getElementById("box");
+    let $box=$(box);
+    //把JQ对象转成原生对象
+    $box[0];
+    $box.get(0);//原生对象
+    $box.eq(0);//JQ对象
+    //页面dom结构加载完成之后执行
+    $(function(){});//在一个页面执行多次
+    $(document).ready(function (){})
+        //类似于window.DOMContentLoaded,
+        //window.onload  所有资源加载完成后执行，只执行一次
+    jQuery.prototype;//JQ原型
+
+
+</script>

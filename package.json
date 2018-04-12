@@ -1,0 +1,23 @@
+{
+  "name": "dongxin03-n",
+  "version": "1.0.0",
+  "description": "- 记录工作中遇到的问题和小技巧",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongxin03/dongxin03-n.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongxin03/dongxin03-n/issues"
+  },
+  "homepage": "https://github.com/dongxin03/dongxin03-n#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.3.1"
+  }
+}
