@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>本地文件阅览</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="box">
+        <input class="inp" type="file" multiple>
+        <!-- multiple 可以选取多个文件 -->
+    </div>
+    <div class="imgList">
+       
+    </div>
+</body>
+</html>
+<script>
+    //获取元素
+    let inp=document.getElementsByClassName("inp")[0];//input 获取本地图片
+    let imgList=document.getElementsByClassName("imgList")[0];//放阅览图片的div
+
+    //设置兼容  url
+    getObjectURL=(file)=>{//
+        var url = null;
+        if (window.createObjectURL != undefined) { // basic
+            url = window.createObjectURL(file);
+        } else if (window.URL != undefined) { // mozilla(firefox)
+            url = window.URL.createObjectURL(file);
+        } else if (window.webkitURL != undefined) { // webkit or chrome
+            url = window.webkitURL.createObjectURL(file);
+        }
+        return url;
+    }
+
+    //创建 img 给img增加src属性并赋值  将img放到阅览图片div中
+    let imgItem=document.createElement("img");//创建一个img
+    inp.addEventListener("change",()=>{
+        imgItem.setAttribute("src",getObjectURL(inp.files[0]));//给img添加src属性和属性值
+    })
+    imgList.appendChild(imgItem);//将img放到imgList中
+    
+    //多张图片 可以循环inp.files
+</script>
