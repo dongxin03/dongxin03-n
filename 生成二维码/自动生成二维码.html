@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>自动生成二维码</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery.min.js"></script>
+    <script src="qrcode.min.js"></script>
+</head>
+<body>
+    <input id="inp" type="text">
+    <button id="btn">确定</button>
+    <div id="qrcode"></div>
+</body>
+</html>
+<script>
+    let inp=document.getElementById("inp");
+    let btn=document.getElementById("btn");
+    let qrcode=new QRCode("qrcode");
+    
+    btn.onclick=function(){
+        qrcode.makeCode(inp.value)
+    }
+</script>
+    
+
+   
