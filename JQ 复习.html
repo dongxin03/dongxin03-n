@@ -12,9 +12,15 @@
         <ul class="list">
             <li class="item">1</li>
             <li type="item">2</li>
-            <li>3</li>
+            <li>
+                <input class="inp" type="text">
+            </li>
             <li>4</li>
         </ul>
+    </div>
+    <div>
+        <div class="user">1111111111</div>
+        <button class="banner">点击</button>
     </div>
 </body>
 </html>
@@ -35,6 +41,8 @@
     $("li:lt(1)");//索引小于1
     $("li:not()");//不包含什么
     $("li:not(:gt(5))");//获取所有里但是不包含索引大于5的，也就是前6个
+    $("li:odd");//奇数位置
+    $("li:even");//偶数位置
     //把原生对象转成JQ对象
     let box=document.getElementById("box");
     let $box=$(box);
@@ -48,6 +56,55 @@
         //类似于window.DOMContentLoaded,
         //window.onload  所有资源加载完成后执行，只执行一次
     jQuery.prototype;//JQ原型
+    //事件
+    //鼠标事件
+    $("#box").click(function () {//单机事件
+
+    })
+    $("#box").dblclick(function () {//双击事件
+
+    })
+    $("#box").mouseenter(function () {//鼠标移入
+
+    })
+    $("#box").mouseleave(function () {//鼠标移出
+
+    })
+    //键盘事件
+    $(document).keydown(function (e) {//按键按下
+        e.keyCode+"keydown";
+    })
+    $(document).keyup(function (e) {//按键摁下抬起
+        e.keyCode+"keyup";
+    })
+    $(document).keypress(function (e) {//按键抬起
+        e.keyCode+"keypress";
+    })
+    //表单事件
+    $(".inp").blur(function () {//获取焦点
+
+    })
+    $(".inp").focus(function () {//失去焦点
+
+    })
+    $(".inp").change(function () {//内容改变
+        console.log($(".inp").val());
+        $(".inp").parent().html($(".inp")+"uu")
+    })
+    //效果
+    $(".banner").click(function () {
+        $(".user").toggle()//显示隐藏   hide隐藏  show显示
+    });
+    //ajax
+    $.ajax({
+        url:"localhost:444",
+        type:"git",
+        dataType:"json",
+        data:{name:"a",age:1},
+        success:function(m){
+            console.log(m)
+        }
+    })
 
 
 </script>
