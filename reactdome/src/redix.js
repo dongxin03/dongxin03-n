@@ -1,3 +1,0 @@
-function createStore (reducer){
-
-}

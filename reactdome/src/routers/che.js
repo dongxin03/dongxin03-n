@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import store from "../store";
 import Nav from "../components/nav";
-import action from "../store/action"
+import action from "../store/actions"
 
 export class che extends Component {
   constructor(){

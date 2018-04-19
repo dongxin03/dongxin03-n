@@ -7,13 +7,16 @@ import { hamo } from './routers/hamo';
 import { che } from './routers/che';
 import { shang } from './routers/shang';
 import { login } from './routers/login';
+import {Provider} from "react-redux";
+import store from "./store"
 
 
 
 
 
 
-ReactDOM.render(<div>
+ReactDOM.render(<Provider store={store}>
+    <div>
     <Router>
         <Switch>
             <Route exact path="/" component={hamo}/>
@@ -25,5 +28,6 @@ ReactDOM.render(<div>
             
         </Switch>
     </Router>
-</div>, document.getElementById('root'));
+</div>
+</Provider>, document.getElementById('root'));
 
