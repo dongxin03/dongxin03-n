@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="box" class="box"><ul id="list">
+            <li id="item" name="item">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
+<script>
+    //获取节点
+    let box=document.getElementById("box");
+    let box1=document.getElementsByClassName("box")[0];
+    let item=document.getElementById("item");
+    let div=document.getElementsByTagName("div");
+    let list=document.getElementById("list");
+    //节点指针
+    box.firstChild;//box的首个子节点
+    box.lastChile;//box的最后一个子节点
+    box.childNodes;//box 的子元素节点
+    box.previousSibling;//box的前一个节点
+    box.nextSibling;//box的后一个节点
+    item.parentNode;//item的父节点
+    //创建节点
+    let a1=document.createElement("p");//创建一个元素标签
+    let b1=document.createAttribute("src");// src=""
+    let c1=document.createTextNode("111");//"111"
+    //插入节点
+    box.appendChild(a1);//在末尾添加一个节点
+    box.insertBefore(a1,list);//在已知子节点list前添加一个节点
+    //替换节点
+    // box.replaceChild(a1,list);
+    //替换子节点list
+    //复制节点
+    let d1=item.cloneNode(true);//复制  创建指定节点的副本 true 复制当前节点ji器所有的节点 false仅复制当前节点
+    //删除节点 
+    // box.removeChild(list);
+    //删除list子节点   
+
+    //属性操作
+    let e=item.getAttribute("name");// 获取元素节点中指定属性的属性值  item
+    item.setAttribute("name","666");// 创建活改变元素节点的属性
+    item.removeAttribute("name");//删除元素中指定属性
+
+    
+    
+    
+    
+    
+    
+    
+
+
+</script>
