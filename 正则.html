@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+    /*
+    + 1到多个
+    * 0 到多个
+    ？ 0 或1 个
+    (?='')  ?等于什么  正向预查 后面必须是‘’
+    (?!'')  负向预查   后面不能是‘’
+    g  消除懒惰
+    i  不区分大小写
+    m  行 开头结尾
+    
+    */
+   
+    //验证是否为有效数字
+    let arg=/^-?(\d|([1-9]\d+))(\.\d+)?$/;
+    let a="3";
+    console.log(a.match(arg));
+    //验证中文汉字
+    let arg1=/^[\u4E00-\u9FA5]{2,5}(·[\u4E00-\u9FA5]{2,5})?$/;
+    let b="董新";
+    console.log(b.match(arg1));
+    //邮箱
+    let arg2=/^\w+((-\w+)|(\.\w+))*@[a-zA-Z1-9]+((\.|-)[a-zA-Z0-9]+)*\.[a-zA-Z0-9]+$/;
+    let c="892202771@qq.com";
+    console.log(c.match(arg2));
+    //简单身份证
+    let arg3=/^(\d{6})(\d{4})(\d{2})(\d{2})\d{2}(\d)(\d|X)$/;
+    let d="210921199209247014";
+    console.log(arg3.exec(d));
+    
+    
+    
+    
+
+
+</script>

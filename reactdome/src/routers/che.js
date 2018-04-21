@@ -4,8 +4,6 @@ import Nav from "../components/nav";
 import actions from "../store/actions";
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
-
-
 class che extends Component {
   render() {
     return (
@@ -25,5 +23,5 @@ class che extends Component {
     )
   }
 }
+export default withRouter(connect(state=>({...state}),actions)(che))
 
-export default withRouter(connect((state)=>({...state}),actions)(che))

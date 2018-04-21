@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>清楚浮动</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #box{
+            /* width: 200px; */
+            /* height: 200px; */
+            background-color: red;
+            /* overflow: hidden; */
+        }
+        #box:after{
+            content: '';
+            clear: both;
+            display: block;
+        }
+        #item{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            float:right;
+        }
+        #list{
+            clear: both
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="item"></div>
+        <!-- <div id="list"></div> -->
+    </div>
+</body>
+</html>
+<script>
+    /*  1、给父级增加添加固定宽度高度
+        2、给父级overflow：hidden；
+        3、设置一个兄弟元素  给一个clear：both样式，clear：both  不允许左右两侧出现浮动
+        4、伪元素   给box增加一个伪元素 after     clear：both    display：block
+    */
+</script>

@@ -1,0 +1,515 @@
+{
+  "dataType": "book",
+  "data": [
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼王的求婚"
+        },
+        {
+          "key": "册数",
+          "value": "3卷"
+        },
+        {
+          "key": "插图",
+          "value": "兼守美行"
+        }
+      ],
+      "country": null,
+      "title": "海賊王の求婚",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "イースト・プレス",
+      "url": "http://bgm.tv/subject/211220",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": null,
+      "bookType": "book",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "エンダリア王国・第三王子のレンは、大変な美貌の持ち主でありながら勇敢な海軍提督でもあった。ある日のこと、政敵の左大臣の罠に嵌り孤島の城に幽閉されてしまうレン。……そこへ救出に現れたのは超男前の海賊王、ラァスだった。彼こそはレンが絶対討伐してやると言って憚らない宿敵。躰を貰う代わりに全力でお前を守る……と言うラァスとともに追われる身となったレンは……。艶美なるパイレーツロマンス\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 0,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/66/81/211220_Gx9Ip.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "ゆりの菜櫻",
+          "id": "712df6ecab5d0e8c7ccbb6a7c167a294"
+        }
+      ],
+      "wordNum": null,
+      "id": "211220"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼王 第千卷"
+        },
+        {
+          "key": "别名",
+          "value": "ワンピース 第千巻"
+        }
+      ],
+      "country": null,
+      "title": "ONE PIECE 巻千",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/55586",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": null,
+      "bookType": "cartoon",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "      预定12月15日上映的剧场版动画《海贼王FILM Z》于近日公开了特典情报，凡是第一时间观看影片的FANS都可以得到收录有短篇漫画《海贼王第千卷》在内的“海贼的宝袋”。宝袋中的其他内容则将在今后陆续公开。\n      在2009年剧场版《海贼王FILM STRONG WORLD》上映时，作为特典曾经颁发过的《海贼王第零卷》，因为限定150万部所以很快就发光，结果又紧急追加了100万份。这次《海贼王第千卷》的抢手程度显然不会输给之前的第零卷，有机会第一时间看到影片的FANS要记得不要错过。\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 0,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/56/94/55586_q27RY.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": null,
+      "wordNum": null,
+      "id": "55586"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼王"
+        },
+        {
+          "key": "册数",
+          "value": "既刊88卷"
+        },
+        {
+          "key": "连载杂志",
+          "value": "週刊少年ジャンプ"
+        },
+        {
+          "key": "别名",
+          "value": "海盗路飞"
+        },
+        {
+          "key": "别名",
+          "value": "航海王"
+        },
+        {
+          "key": "其他",
+          "value": "连载中"
+        }
+      ],
+      "country": null,
+      "title": "ONE PIECE",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/3510",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": "1997年8月4日",
+      "rating": 9.1,
+      "bookType": "cartoon",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "“ONE PIECE”在故事中为“一个大秘宝”之意。故事描述男主角‘草帽’蒙其·D·路飞为了当上“海贼王”而踏上“伟大航道”及与其伙伴的经历。传说中‘海贼王’哥尔·D·罗杰在死前说出他留下了具有财富、名声、力量世界第一的宝藏“ONE PIECE”，许多人为了争夺“ONE PIECE”，争相出海，许多海贼开始树立霸权，而形成了“大海贼时代”。十年后，路飞为了要实现与因救他而断臂的四皇‘红发’香克斯的约定而出海，在遥远的路途上找寻着志同道合的伙伴，一起进入“伟大航道”，目标当上“海贼王”。 \n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 1059,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/15/e1/3510_iFgZS.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "尾田栄一郎",
+          "id": "44395aa31099183ded650988d1f89f4b"
+        }
+      ],
+      "wordNum": null,
+      "id": "3510"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼王 第0卷"
+        },
+        {
+          "key": "别名",
+          "value": "ONE PIECE 0巻"
+        },
+        {
+          "key": "别名",
+          "value": "ONE PIECE 卷零"
+        },
+        {
+          "key": "别名",
+          "value": "ワンピース0巻"
+        }
+      ],
+      "country": null,
+      "title": "ONE PIECE 巻零",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/55585",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": 7.5,
+      "bookType": "cartoon",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "       观看《ONE PIECE FILM Strong World》剧场版的的前150万人的观众，获得《海贼王》漫画第0卷作为礼品。该第0卷漫画作品中，将包括于动画联动的由尾田荣一郎老师亲自绘制的漫画以及设定画、评论等内容。漫画将以20多年前的《海贼王》的世界为背景进行描述。\n\n　　此外附赠由尾田荣一郎老师绘制插画的周边的预售票第2弹于10月31日正式在日本全国的剧场开售，而观众也可以选择特制徽章或者接缝彩色铅笔的一种。\n\n      後に第0話は2012年3月発売の『ONE PIECE BLUE DEEP』に収録されている。\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 11,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/f5/15/55585_dK8Qw.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "尾田栄一郎",
+          "id": "44395aa31099183ded650988d1f89f4b"
+        }
+      ],
+      "wordNum": null,
+      "id": "55585"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼王 小说"
+        },
+        {
+          "key": "册数",
+          "value": "15"
+        },
+        {
+          "key": "原作",
+          "value": "尾田栄一郎"
+        },
+        {
+          "key": "别名",
+          "value": "海贼王剧场版 小说"
+        }
+      ],
+      "country": null,
+      "title": "ONE PIECE",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/149890",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": null,
+      "bookType": "book",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "集英社「ジャンプ ジェイ ブックス」より発売されている、アニメオリジナルストーリーや劇場版のノベライズ作品。著者はすべて浜崎達也。一部は児童文学レーベル「集英社みらい文庫」でも刊行されている。\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 0,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/dd/50/149890_c0V42.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "浜崎達也",
+          "id": "32850da96c82f5358ddb1280e278674c"
+        }
+      ],
+      "wordNum": null,
+      "id": "149890"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "海贼★游戏"
+        }
+      ],
+      "country": null,
+      "title": "海賊★ゲーム",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "角川書店",
+      "url": "http://bgm.tv/subject/34866",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": null,
+      "bookType": "cartoon",
+      "isbn": "4048542354",
+      "noteCount": null,
+      "description":
+        "六花是海盗船的副船长。某天，六花再也不想见到第二次的男人──苏芳出现在他眼前，而船长九龙竟然还介绍他是即将成为新伙伴的船员。为了排解隐藏在内心深处对九龙的爱慕之情，六花曾和某个男人上过床，而那个人就是苏芳。六花下定决心绝对不和同伴们发生关系，所以才会把对九龙的爱一直藏在心中。但苏芳却突然对六花说：「如果你不跟九龙告白，那我就要将你夺过来！」─────!? 海盗＆厨师＆王子殿下＆音乐家，各路帅哥全都到齐！超级☆海盗爱情故事登场！\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 0,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/ad/d2/34866_jp.jpg",
+      "priceInfo": "￥ 588",
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "高城リョウ",
+          "id": "045dd8dcdf67786c29a55f355222e1fd"
+        }
+      ],
+      "wordNum": null,
+      "id": "34866"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "村上海贼之女"
+        },
+        {
+          "key": "册数",
+          "value": "2"
+        },
+        {
+          "key": "别名",
+          "value": "村上海贼的女儿"
+        },
+        {
+          "key": "连载杂志",
+          "value": "週刊新潮"
+        }
+      ],
+      "country": null,
+      "title": "村上海賊の娘",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": "2013年",
+      "tags": null,
+      "publishOrg": "新潮社",
+      "url": "http://bgm.tv/subject/172038",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": "2011年",
+      "rating": null,
+      "bookType": "book",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "戦国時代に瀬戸内海を席巻した「海賊王」村上武吉の娘・景（きょう）が、信長に追い詰められ窮地に陥った本願寺を救うため、戦いに身を投じていく。\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 0,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/82/60/172038_yG52S.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "和田竜",
+          "id": "bf334dac863fa719bd486d3ae880c1e2"
+        }
+      ],
+      "wordNum": null,
+      "id": "172038"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "中文名",
+          "value": "航海王海贼食谱 海的一流料理人 香吉士的满腹餐点"
+        }
+      ],
+      "country": null,
+      "title": "ONE PIECE PIRATE RECIPES 海の一流料理人 サンジの満腹ごはん",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/81279",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": 8,
+      "bookType": null,
+      "isbn": "4087806588",
+      "noteCount": null,
+      "description": null,
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 3,
+      "pageNum": 100,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/17/47/81279_jp.jpg",
+      "priceInfo": "￥ 1,470",
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "SANJI",
+          "id": "c5d8ff6503a2a94f18a0da9deafad425"
+        }
+      ],
+      "wordNum": null,
+      "id": "81279"
+    },
+    {
+      "translators": null,
+      "reviewCount": null,
+      "mediaType": "book",
+      "catalogs": null,
+      "abstract": null,
+      "keyValues": [
+        {
+          "key": "别名",
+          "value": "龙珠×海贼王"
+        },
+        {
+          "key": "别名",
+          "value": "DRAGON BALL × ONE PIECE"
+        },
+        {
+          "key": "别名",
+          "value": "クロス エポック"
+        },
+        {
+          "key": "连载杂志",
+          "value": "週刊少年ジャンプ"
+        }
+      ],
+      "country": null,
+      "title": "CROSS EPOCH",
+      "viewCount": null,
+      "chapterIds": null,
+      "closeDate": null,
+      "tags": null,
+      "publishOrg": "集英社",
+      "url": "http://bgm.tv/subject/38411",
+      "subtitle": null,
+      "catPathKey": null,
+      "copyrightOrg": null,
+      "openDate": null,
+      "rating": 7.4,
+      "bookType": "cartoon",
+      "isbn": null,
+      "noteCount": null,
+      "description":
+        "『CROSS EPOCH』（クロス エポック）は、鳥山明と尾田栄一郎による合作漫画。『DRAGON BALL』と『ONE PIECE』のクロスオーバー作品である（正確にはスター・システム）。\n『週刊少年ジャンプ』2007年4・5合併号（2006年12月25日発売）の目玉企画として掲載。後に2007年7月27日発売の週刊少年ジャンプ特別編集増刊『ONE PIECE 10th Treasures』に収録。\n",
+      "pressDate": null,
+      "price": null,
+      "series": null,
+      "writerInfo": null,
+      "ratingCount": 8,
+      "pageNum": null,
+      "coverUrl": "https//lain.bgm.tv/pic/cover/c/00/12/38411_jjdkE.jpg",
+      "priceInfo": null,
+      "commentCount": null,
+      "writers": [
+        {
+          "name": "鸟山明 尾田荣一郎",
+          "id": "f230f5d6fe2f594d8b943120f11f1bca"
+        }
+      ],
+      "wordNum": null,
+      "id": "38411"
+    }
+  ],
+  "retcode": "000000",
+  "hasNext": false,
+  "appCode": "bangumi",
+  "pageToken": null
+}

@@ -97,13 +97,14 @@
     });
     //ajax
     $.ajax({
-        url:"localhost:444",
-        type:"git",
+        url:"http://localhost:444/",
+        type:"get",
         dataType:"json",
-        data:{name:"a",age:1},
+        // data:{name:"a",age:1},
         success:function(m){
             console.log(m)
         }
+        
     })
 
 
