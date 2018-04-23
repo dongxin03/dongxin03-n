@@ -13,8 +13,8 @@ export class login extends Component {
   }
   render() {
     return (
-      <div>
-        <input ref={x=>{this.s=x}} type="text" defaultValue="请输入账号" 
+      <div className="login_box">
+        <input className="inp1" ref={x=>{this.s=x}} type="text" defaultValue="请输入账号" 
         
         onFocus={()=>{
         if(this.state.is){
@@ -32,7 +32,7 @@ export class login extends Component {
           }
         }}/>
 
-        <input ref={x=>{this.x=x}} type={this.state.inp?"password":"text"} defaultValue="请输入密码" 
+        <input className="inp2" ref={x=>{this.x=x}} type={this.state.inp?"password":"text"} defaultValue="请输入密码" 
         
         onFocus={()=>{
         if( this.state.in){
@@ -50,7 +50,7 @@ export class login extends Component {
             })
           }
         }}/>
-        <input ref={x=>{this.b=x}} type="checkbox" onChange={()=>{
+        <input className="inp3" ref={x=>{this.b=x}} type="checkbox" onChange={()=>{
           if(this.b.checked){
             this.setState({
               inp:false
