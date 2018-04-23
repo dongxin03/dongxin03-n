@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom"
+import { isAbsolute } from 'path';
 
 export class nav extends Component {
   render() {
     let style={
         width:"24.5%",
         "boxSizing":"borderBox",
-        float:"left"
+        float:"left",
+        
     }
     return (
-     <div className="navBox">
-        <ul style={{borderBottom:"1px solid #666"}} className="nav nav-pills nav-justified">
+     <div style={{bottom:"0",position:"absolute",width:"100%",zIndex:"999"}} className="navBox">
+        <ul style={{borderTop:"1px solid #666"}} className="nav nav-pills nav-justified">
             <li style={style} role="presentation" className="disabled">
                 <NavLink to="/hamo">
                     首页
