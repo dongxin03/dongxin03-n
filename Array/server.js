@@ -27,7 +27,6 @@ app.use(
   });
 
 app.get("/",function(req,res){
-    let a;
     fs.readFile("./data.json", { encoding: "utf8" },async (e,data)=>{
         if(e){
            res.send( "失败")
