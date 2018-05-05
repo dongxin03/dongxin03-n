@@ -63,6 +63,8 @@ module.exports = {
     chunkFilename: 'static/js/[name].chunk.js',
     // This is the URL that app is served from. We use "/" in development.
     publicPath: publicPath,
+    chunkFilename:'[name].chunk.js',
+
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info =>
       path.resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
@@ -167,6 +169,9 @@ module.exports = {
                 },
               },
               {
+                loader:require.resolve('less-loader'),
+              },
+              {
                 loader: require.resolve('postcss-loader'),
                 options: {
                   // Necessary for external CSS imports to work
@@ -186,9 +191,7 @@ module.exports = {
                   ],
                 },
               },
-              {
-                loader:require.resolve('less-loader'),
-              }
+             
             ],
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.

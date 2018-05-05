@@ -6,8 +6,46 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<style>
+    html,body{
+        width: 100%;
+        height: 100%;
+       
+    }
+    html,body,div{
+        margin: 0;
+        padding: 0;
+    }
+    #box{
+        width: 100%;
+        height: 100%;
+    }
+    .item{
+        width: 200px;
+        height: 100%;
+        background-color: #555;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .list{
+        width: auto;
+        height: 100%;
+        background-color: #dddddd;
+        float: left;
+        margin-left: 200px;
+    }
+</style>
 <body>
-    <div>
+  <div id="box">
+      <div class="item"></div>
+      <div class="list">
+            <select>
+                    <option value ="volvo">Volvo</option>
+                    <option value ="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
         <h2>1、xml和json的区别</h2>
         <p>Xml特点：
 
@@ -35,5 +73,54 @@
             共同点：
                 xml和json都是数据传输的载体，并且具有跨平台跨语言的特性</p>
     </div>
+    <input type="checkbox" checked="true" class="inp" />
+    <button class="btn">11</button>
+  </div> 
 </body>
 </html>
+<script>
+        function aa(){
+            console.log(111);
+            
+        }
+        window.onmouseover=aa;
+        let inp=document.getElementsByClassName("inp")[0]
+        let btn=document.getElementsByClassName("btn")[0];
+        console.log(inp,btn);
+        
+        btn.onclick=function(){
+            console.log("rtre");
+            inp.removeAttribute("checked")
+            // inp.setAttribute("checked","false")
+        }
+
+
+        
+            function isNumber(a){
+                return new Promise((resolve,reject)=>{
+                    if(isNaN(a))reject("不是")
+                    resolve("是")
+                })
+            }
+        isNumber(1).then((data)=>{console.log(data);});
+
+
+
+       function asyncPrint(a,b){
+           return new Promise((resolve,reject)=>{
+                setTimeout(resolve(a)
+                ,b)
+            })
+            
+        }
+       asyncPrint("111",500).then((a)=>{console.log(a)})
+        console.log(1);
+        
+        
+        let obj={"name":"aaa"}
+        console.log(obj);
+        obj=JSON.stringify(obj);
+        console.log(obj);
+        
+        
+</script>

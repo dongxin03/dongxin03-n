@@ -55,7 +55,9 @@
         }
       ],
       "wordNum": null,
-      "id": "211220"
+      "id": "211220",
+      "qian":"178",
+      "isChecked":false
     },
     {
       "translators": null,
@@ -102,7 +104,11 @@
       "commentCount": null,
       "writers": null,
       "wordNum": null,
-      "id": "55586"
+      "id": "55586",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -170,7 +176,11 @@
         }
       ],
       "wordNum": null,
-      "id": "3510"
+      "id": "3510",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -230,7 +240,11 @@
         }
       ],
       "wordNum": null,
-      "id": "55585"
+      "id": "55585",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -290,7 +304,11 @@
         }
       ],
       "wordNum": null,
-      "id": "149890"
+      "id": "149890",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -338,7 +356,11 @@
         }
       ],
       "wordNum": null,
-      "id": "34866"
+      "id": "34866",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -398,7 +420,11 @@
         }
       ],
       "wordNum": null,
-      "id": "172038"
+      "id": "172038",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -445,7 +471,11 @@
         }
       ],
       "wordNum": null,
-      "id": "81279"
+      "id": "81279",
+      "qian":"178",
+      "isChecked":false
+      
+      
     },
     {
       "translators": null,
@@ -505,7 +535,11 @@
         }
       ],
       "wordNum": null,
-      "id": "38411"
+      "id": "38411",
+      "qian":"178",
+      "isChecked":false
+      
+      
     }
   ],
   "retcode": "000000",

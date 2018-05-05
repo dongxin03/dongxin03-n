@@ -1,15 +1,29 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Nav from "../components/nav";
+import Fang from '../commit/js/fang';
+import Yuan from '../commit/js/yuan';
+import action from '../store/actions'
+import {connect} from 'react-redux';
 
-export class shang extends Component {
+ class shang extends Component {
+  constructor(){
+    super();
+    this.state={
+
+    }
+  }
   render() {
+    console.log(this.props.init);
+    
     return (
       <div>
         <Nav></Nav>
-        22222222222222222222222222222222222222
+        <Fang />
+        <Yuan />
+        <p>{this.props.init?"对":"错"}</p>
       </div>
     )
   }
 }
 
-export default shang
+export default connect((state)=>({...state}),action)(shang)

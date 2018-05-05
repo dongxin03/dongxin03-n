@@ -1,6 +1,7 @@
 let express=require("express");
 let session = require("express-session");
-let fs=require("fs")
+let fs=require("fs");
+let bodyParser=require("body-parser");
 
 let app=express();
 
@@ -26,6 +27,14 @@ app.use(
     next();
   });
 
+
+  //不加这两个中间件  req。body  获取不到数据
+  app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
+
+
+
 app.get("/",function(req,res){
     fs.readFile("./data.json", { encoding: "utf8" },async (e,data)=>{
         if(e){
@@ -34,6 +43,31 @@ app.get("/",function(req,res){
             res.send(data)
         }
     })
+})
+
+
+app.post("/item",(req,res)=>{
+    fs.readFile("./dataitem.json",{ encoding: "utf8" }, (e,data)=>{
+      if(e){
+        res.send("读取失败")
+      }
+      data=JSON.parse(data)
+      req.body.obj.id=data.length+1;      
+      data.push(req.body.obj)
+      data=JSON.stringify(data);
+      console.log(data);
+      
+
+    
+      fs.writeFile("./dataitem.json",data,"utf-8",(e,data)=>{
+        if(e){
+          res.send("写入失败")
+        }
+      })
+    })
+   
+    
+    res.send("ok")
 })
 
 app.listen("444")

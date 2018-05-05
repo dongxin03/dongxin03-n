@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Nav from "../components/nav";
-import "./login.less"
+import "./login.less";
+import {Link} from "react-router-dom"
 
 export class login extends Component {
   constructor(){
@@ -11,9 +12,11 @@ export class login extends Component {
       is:true
     }
   }
+ 
   render() {
     return (
-      <div className="login_box">
+     <div style={{boxSizing:"border-box"}}>
+        <div className="login_box">
         <input className="inp1" ref={x=>{this.s=x}} type="text" defaultValue="请输入账号" 
         
         onFocus={()=>{
@@ -46,7 +49,8 @@ export class login extends Component {
           if(this.x.value==""){
             this.x.value="请输入账号";
             this.setState({
-              in:false
+              in:true,
+              inp:false
             })
           }
         }}/>
@@ -61,9 +65,16 @@ export class login extends Component {
             })
           }
         }}/>
-        <button>登录</button>
-        <Nav></Nav>
+        <button onClick={()=>{
+          window.sessionStorage.setItem("name",this.x.value);
+          window.sessionStorage.setItem("age",this.s.value);
+          
+          console.log(this.s.value);
+          console.log(this.x.value);
+        }}><Link to="/login/item">下一步</Link></button>
       </div>
+      <Nav></Nav>
+     </div>
     )
   }
 }

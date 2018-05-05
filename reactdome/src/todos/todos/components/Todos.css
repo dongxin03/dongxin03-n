@@ -1,0 +1,9 @@
+.list-group-item .btn{
+    display: none;
+}
+.list-group-item:hover .btn{
+    display: inline-block;
+}
+.filter-button{
+    margin-left: 10px;
+}
