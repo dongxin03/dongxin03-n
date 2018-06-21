@@ -1,6 +1,6 @@
 import actions from "../actions"
 
-export default function reduser(state={a:1,id:[],inclient:{a:0,b:0},init:false},actions){
+export default function reduser(state={a:1,id:[],inclient:{a:200,b:200},init:false},actions){
     switch(actions.type){
         case "ADD":
         return {...state,a:state.a+actions.b}

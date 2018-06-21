@@ -1,0 +1,15 @@
+ul,li{
+    list-style: none;
+}
+div,h1,ul,li,span{
+    margin: 0;
+    padding: 0;
+}
+.courseperiod{
+    width: 100%;
+    background-color: #fff;
+}
+.aa{
+    width: 1080px;
+    margin: 0 auto;
+}

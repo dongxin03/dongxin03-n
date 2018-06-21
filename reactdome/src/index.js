@@ -20,7 +20,6 @@ const A=getComponent(()=>import('./routers/che'))
 
 
 ReactDOM.render(<Provider store={store}>
-    <div>
     <Router>
         <Switch>
             <Route exact path="/" component={Hamo}/>
@@ -32,7 +31,6 @@ ReactDOM.render(<Provider store={store}>
             <Route to="/" />
         </Switch>
     </Router>
-</div>
 </Provider>, document.getElementById('root'));
 
 // import './todos/todos'

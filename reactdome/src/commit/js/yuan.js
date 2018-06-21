@@ -7,8 +7,8 @@ class yuan extends Component {
     constructor(){
         super();
         this.state={
-            a:0,
-            b:0,
+            a:200,
+            b:200,
             ios:false
         }
     }

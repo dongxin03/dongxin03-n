@@ -52,6 +52,9 @@ ul,
 ol {
   list-style: none;
 }
+html,body{
+  height: 100%;
+}
 a {
   text-decoration: none;
   background-color: transparent;
